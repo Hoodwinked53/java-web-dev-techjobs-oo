@@ -56,7 +56,7 @@ public class JobTest {
 
         String testStringBlank = "\n" + "ID: " + job1.getId() + "\n" + "Name: Data not available" + "\n" + "Employer:" +
                 " Data not available" + "\n" + "Location: Data not available"+ "\n" + "Position Type: Data not available" + "\n" + "Core Competency: Data not available" + "\n";
-        assertTrue(testStringBlank.equals(testStringBlank.toString()));
+        assertTrue(testStringBlank.equals(testStringBlank));
     }
 
 
